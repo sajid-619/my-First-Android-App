@@ -1,0 +1,32 @@
+<LinearLayout
+  android:layout_width="wrap content"
+  android:layout_height="wrap content"
+  android:orientation="vertical"
+  
+  <Imageview
+    android:src="GloriaJeans.png"
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:sclaeType="centerCrop" />
+    
+  <TextView
+    android:text="Business Name: Gloria Jeans Coffee Shop"
+    android:layout_width="120dp"
+    android:layout_height="75dp"
+    android:background="@android:color/white"
+    android:textSize="45sp" />
+    
+  <TextView
+    android:text="Contact No.: +88017234784"
+    android:layout_width="120dp"
+    android:layout_height="75dp"
+    android:background="@android:color/white"
+    android:textSize="45sp" />  
+    
+  <TextView
+    android:text="Address: House - 71, Road - 5, Block - B, Bashundhra R/A, Dhaka - 1229"
+    android:layout_width="120dp"
+    android:layout_height="75dp"
+    android:background="@android:color/white"
+    android:textSize="45sp" />  
+</LinearLayout>
