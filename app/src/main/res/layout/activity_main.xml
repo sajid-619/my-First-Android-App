@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mdd23.udacityband01singlescreen.MainActivity">
+
+    <ImageView
+        android:src="@drawable/rover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:paddingLeft="48dp"/>
+    <ImageView
+        android:src="@drawable/cmrlogo"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="32dp"
+        android:layout_alignParentBottom="true"
+        android:background="#66FF0000">
+
+        <TextView
+            android:id="@+id/name"
+            android:text="Cornell Mars Rover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="34sp"/>
+        <TextView
+            android:id="@+id/description"
+            android:text="The Cornell Mars Rover project team designs an innovative mars rover to compete in the Mars Society's University Rover Challenge."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#ffffff"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/address"
+            android:text="Phillips Hall, Ithaca, NY 14850"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="#ffffff"
+            android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/email"
+            android:text="cornellmarsrover@gmail.com"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textColor="#ffffff"
+            android:textSize="12sp"/>
+    </LinearLayout>
+</RelativeLayout>
