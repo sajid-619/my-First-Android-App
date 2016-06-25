@@ -1,3 +1,3 @@
 # Build a Single Screen App
 
-This project is part of Udacity's Android Basics Nanodegree by Google.
+This project is part of Udacity's Android Basics Nanodegree.
