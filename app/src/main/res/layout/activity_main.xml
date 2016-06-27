@@ -6,13 +6,13 @@
     tools:context="com.example.mdd23.udacityband01singlescreen.MainActivity">
 
     <ImageView
-        android:src="@drawable/rover"
+        android:src="@drawable/cat"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:paddingLeft="48dp"/>
     <ImageView
-        android:src="@drawable/cmrlogo"
+        android:src="@drawable/catlogo"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"/>
